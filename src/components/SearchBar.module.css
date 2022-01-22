@@ -1,0 +1,35 @@
+
+.container > input[type="text"],
+.container > input {
+    width: 300px;
+    height: 30px;
+    background: #EF9A9A ;
+    border: none;
+    font-size: 10pt;
+    color: #262626;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.button {
+    border: none;
+    background-color:#E53935;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #B71C1C;
+}
+
+

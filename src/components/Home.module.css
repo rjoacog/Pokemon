@@ -1,0 +1,128 @@
+.container {
+  background-image: url("https://st2.depositphotos.com/3213441/12022/v/950/depositphotos_120226446-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg");
+
+}
+
+.butCreat {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    background-color: #E53935; 
+    border-radius: 15px;
+    border: 3px double black;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.butCreat:hover {
+    color:black;
+    background-color: #B71C1C;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.h1 {
+    font: oblique bold 300% cursive;
+    background-color: #EF9A9A;
+    border:  #B71C1C 3px solid; 
+}
+
+/* .butCarg {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    background-color: rgb(3, 216, 110);
+    border-radius: 15px;
+    border: 3px double #006505;
+} */
+
+.select {
+    margin-top: 10px;
+    
+}
+
+.select > .select1 {
+    padding: 0.6em 0.8em;
+    background-color: #E53935;
+    color: black;
+    border-radius: 15px;
+    border: black;
+    cursor: pointer;
+}
+
+.select1:hover{
+    color:black;
+    background-color: #B71C1C;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.select > .select2 {
+    padding: 0.6em 0.8em;
+    background-color: #E53935;
+    color: black;
+    border: black;
+    border-radius: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.select2:hover{
+    color:black;
+    background-color: #B71C1C;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.select > .select3 {
+    padding: 0.6em 0.8em;
+    background-color: #E53935;
+    color: black;
+    border: black;
+    border-radius: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.select3:hover{
+    color:black;
+    background-color: #B71C1C;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.select > .select4 {
+    padding: 0.6em 0.8em;
+    background-color: #E53935;
+    color: black;
+    border: black;
+    border-radius: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.select4:hover{
+    color:black;
+    background-color: #B71C1C;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.contenedor {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: auto;
+    padding:unset;
+ }
+
+.contenedor > div {
+width: 33%;
+}
+
